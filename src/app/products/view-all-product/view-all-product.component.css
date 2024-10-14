@@ -1,0 +1,18 @@
+.categories-wrap {
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.categories-wrap .item {
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.categories-wrap .item h6 {
+  margin-top: 5px;
+  color: #000;
+  cursor: pointer;
+}

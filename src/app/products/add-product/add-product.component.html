@@ -1,0 +1,43 @@
+<div class="container add-products-wrap">
+  <h4>Add New Products</h4>
+  <div class="add-products-wrap">
+    <form action="" class="form-group" [formGroup]="addProductForm" (ngSubmit)="addProduct()">
+      <div class="items-wrap">
+        <label for="">Id</label>
+        <input type="text" class="form-control" formControlName="id">
+      </div>
+      <div class="items-wrap">
+        <label for="">Product Name</label>
+        <input type="text" class="form-control" formControlName="productName">
+      </div>
+      <div class="items-wrap">
+        <label for="">Product Description</label>
+        <input type="text" class="form-control" formControlName="categoryId">
+      </div>
+      <div class="items-wrap">
+        <label for="">Product Price</label>
+        <input type="text" class="form-control" formControlName="description">
+      </div>
+      <div class="items-wrap">
+        <label for="">Product Warranty</label>
+        <input type="text" class="form-control">
+      </div>
+      <div class="items-wrap">
+        <label for="">Id</label>
+        <input type="text" class="form-control">
+      </div>
+      <div class="items-wrap">
+        <label for="">Id</label>
+        <input type="text" class="form-control">
+      </div>
+      <div class="items-wrap">
+        <label for="">Id</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="button">
+        <input type="submit" class="btn btn-pimary" value="Submit">
+      </div>
+    </form>
+  </div>
+</div>
